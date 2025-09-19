@@ -7,7 +7,7 @@ let cart=[];
 
 addToCartBtns.forEach((btn,index)=>{
     btn.addEventListener('click',()=>{
-        cart.push('item ${index+1}');
+        cart.push(`Item ${index + 1}`);
         alert('Added to cart! Total items:${cart.lengh}');
     });
 });
