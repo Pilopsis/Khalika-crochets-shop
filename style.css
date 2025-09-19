@@ -1,0 +1,138 @@
+/*Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #fffdf9;
+    color: #333;
+    
+}
+
+/*Header*/
+header{
+    background: #f8c9d4;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 1rem 2rem;
+}
+header.logo{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+header nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    
+}
+
+/*Hero*/
+.hero{
+    text-align: center;
+    padding:4rem 2rem;
+    background: #ffeef2;
+}
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn{
+    display: inline-block;
+    padding:0.8rem 1,2rem ;
+    background: #f08ca1;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+    inline-size: 120px ;
+}
+
+/*Shop*/
+.shop{
+    padding: 2rem;
+    text-align: center;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1.5rem;
+    margin-top:2rem ;
+}
+.product-card{
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #fff;
+}
+.product-card img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.add-to-cart{
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    background: #f08ca1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product-grid a.btn{
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    color: #333;    
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #f8c9d4;
+    margin-top: 2rem;
+}
+
+/*Contact*/
+.contact{
+    cursor: pointer;
+    padding: 2rem;
+    color: #333;
+    text-align: center;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.contact label{
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.contact input ,textarea{
+    color: white;
+    border: 1px solid #eee;
+    margin-bottom: 1rem;
+}
+.contact button{
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    color: #333;  
+    background: #f08ca1;
+    border-radius: 5px;
+
+}
