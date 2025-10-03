@@ -15,19 +15,25 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="shop.html">Shop</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="cart.html"id="cart-btn">Cart🛒</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html"id="cart-btn">🛒(<span id="cart-count">0</span>)</a></li>
       </ul>
     </nav>
   </header>
 
     <!-- Hero Section -->
     <section class="hero">
-      <h1>Handmade Crochet with Love</h1>
-      <p>Unique, cozy, and made just for you.</p>
+      <h1>Handmade Crochet with Love</h1><br>
+      <p>Unique, cozy, and made just for you.</p><br>
       <a href="shop.html" class="btn">Shop Now</a>
     </section>
    
+     <!-- Display -->
+      <section class="display">
+      <h1>🧶Khalika Crochets</h1>
+      <p>I started this as a hobby. Honestly, this website is also a test of skill and a way for me to learn. I find it hard selling stuff, and pricing stresses me out—oh my days! Overall, I do enjoy this sometimes, and honestly, I'm always picking up new hobbies every week. Enjoy the pictures 💋💋.</p>
+    </section>
+    
     <!--Shop Section-->
     <section id="shop" class="shop">
       <h2>Our Products</h2>
@@ -39,13 +45,13 @@
           <button class="add-to-cart">Add to Cart</button>
         </div>
         <div class="product-card">
-          <img src="images/charger climber.jpg" alt="Crochet Bag">
+          <img src="images/charger climber.jpg" alt="Charger cover">
           <h3>Crochet Bag</h3>
           <p>$25.00</p>
           <button class="add-to-cart">Add to Cart</button>
         </div>
         <div class="product-card">
-          <img src="images/sunflower hat.jpg" alt="Crochet Scarf">
+          <img src="images/sunflower hat.jpg" alt="Sunflower hat">
           <h3>Crochet Scarf</h3>
           <p>$20.00</p>
           <button class="add-to-cart">Add to Cart</button>
@@ -61,5 +67,7 @@
     <p>© 2025 🧶Khalika Crochets Shop | Built with 🩷 by Pilopsis</p>
   </footer>
   <script src="script.js"></script>
+  <div id="toast" class="toast">Item added to cart!</div>
+
 </body>
 </html>
